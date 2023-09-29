@@ -1,0 +1,20 @@
+method: onet_evn
+data:
+  input_type: pointcloud
+  path: data/ShapeNet
+  pointcloud_n: 300
+  # pointcloud_min_n_rand: 50
+  pointcloud_noise: 0.005
+  points_subsample: 2048
+  rotation_path: data_rotations/ShapeNet
+  rotation_augment: aligned
+model:
+  encoder_latent: null
+  decoder: simple_inner
+  encoder: evn_pointnet_resnet
+  encoder_kwargs:
+    hidden_dim: 342
+  c_dim: 171
+  z_dim: 0
+training:
+  out_dir: results/registration/evn_pointnet_resnet_aligned

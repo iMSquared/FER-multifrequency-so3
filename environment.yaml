@@ -1,0 +1,25 @@
+name: fer2_general
+channels:
+  - pytorch
+  - nvidia
+  - default
+dependencies:
+  - python=3.9.17
+  - pytorch=2.0.1
+  - torchvision=0.15.2
+  - torchaudio=2.0.2
+  - pytorch-cuda=11.7
+  - pip
+  - pip:
+    - tensorboard
+    - matplotlib
+    - pyyaml
+    - scipy
+    - trimesh
+    - open3d
+    - einops
+    - plyfile
+    - scikit-image
+    - Cython>=3.0.0
+    - e3nn
+    - h5py
