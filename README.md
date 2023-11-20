@@ -3,9 +3,10 @@
 This is an official repo for the paper "AN INTUITIVE MULTI-FREQUENCY FEATURE REPRESENTATION FOR SO(3)-EQUIVARIANT NETWORKS".
 
 ## Setup environment
-Setup conda environment using...
+
+For classification, part segmentation and occupancy networks, please setup conda environment using...
 ```bash
 conda env create --file environment.yaml
 ```
 
-Please check out each directory for the further instruction.
+For GraphONet please refer to the directory. Please check out each directory for the further instruction.
