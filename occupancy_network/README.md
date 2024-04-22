@@ -12,7 +12,7 @@ python setup.py build_ext --inplace
 ```
 
 ## Dataset
-- Follow the guideline from [here] to prepare the dataset.
+- Follow the guideline from [here](https://github.com/FlyingGiraffe/vnn-neural-implicits/) to prepare the dataset.
 - EGAD dataset will be released soon.
 - Download pretrained weights from [link](https://drive.google.com/file/d/17fdWjUVMPjWIEkDFTWAx9Ir5GCbhiM1A/view?usp=drive_link) and put under `results/*`
 <!-- - Download preprocessed EGAD from [link](https://drive.google.com/file/d/1oAipEm2U77F0a9t_g5CcPyoit98BaAXt/view?usp=drive_link) and extract it to `data/EGAD/*`. -->
